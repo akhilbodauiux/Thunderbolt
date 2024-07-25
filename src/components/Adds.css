@@ -1,0 +1,61 @@
+
+
+.experience
+{
+    text-align: center;
+    opacity: 0.7;
+}
+.experience1{
+   margin-left:40px;
+}
+h2,h3,h4{
+    font-family: poppins;
+}
+.experiencethunder
+{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+.partner
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.partner>div{
+    margin: 10px;
+}
+.press
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.press>div{
+    margin: 10px;
+}
+
+
+
+
+
+
+@media only screen and (min-width:360px) and (max-width:900px) 
+{
+
+.experiencethunder
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+.partner
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.press{
+    display: block;
+}
+
+
+
+}

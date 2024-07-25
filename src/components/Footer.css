@@ -1,0 +1,89 @@
+.foot
+{
+    font-family: poppins;
+    display: grid;
+    grid-template-columns: 25% 15% 15% 20% 25%;
+    padding: 20px;
+    background-color: rgb(233, 188, 75);
+    color: white;
+}
+.foot>div{
+    padding: 20px;
+    margin: 20px;
+}
+.foot>div>h5{
+    color: black ;
+}
+.foot>div>p{
+    text-align: justify;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.footclass
+{
+    position: relative;
+}
+.footclass::after
+{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0%;
+    top: 110%;
+    background-color: rgba(39, 35, 35, 0.796);
+    transition: all 0.4s ease;
+}
+.footclass:hover::after
+{
+    width: 100%;
+}
+.register
+{
+    text-align: center;
+    margin-top: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    pointer-events: stroke;
+}
+.register:hover{
+    scale: 1.02;
+}
+.email{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+.submit
+{
+    width: 70px;
+    padding: 10px;
+    background-color: none;
+    border: none; 
+    margin-left: 10px;
+    
+}
+.submit:hover{
+    border: 1px solid black;
+
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:900px)
+{
+    .foot{
+        display: inline-block;
+    }
+    .submit{
+        margin-top:10px ;
+        align-items: center;
+    }
+}

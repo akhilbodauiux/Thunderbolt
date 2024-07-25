@@ -1,0 +1,275 @@
+.main
+{
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    
+}
+.launch
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    font-size: 12px;
+    padding: 5px;;
+    background-color: rgb(233, 188, 75);
+    
+}
+.description
+{
+    color:gray;
+    text-align: justify;
+}
+.small
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: 1px solid gold;
+    border-radius: 15px;
+}
+.highlights
+{
+    border: 1px solid black;
+    border-radius:20px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+.smallpic
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.price
+{
+    display: flex;
+}
+.cutprice
+{
+    
+    color: gray;
+    text-decoration:line-through;
+    margin: 5px;
+}
+.offer
+{
+    color: red;
+    margin: 5px;
+}
+.watch
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.watchitem
+{
+    margin:10px;
+    background-color: rgba(211, 211, 211, 0.338);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    height:700px;
+}
+.watch1
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.speaker
+{
+    margin:10px;
+    background-color: rgba(211, 211, 211, 0.338);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    height:500px;
+
+}
+
+
+
+
+
+.wow
+{
+    width: 50px;
+}
+h2
+{
+   margin: 10px;
+    
+}
+.status
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.earbuds
+{
+    display: flex;
+    
+}
+.earbuds>div{
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+}
+.amount
+{
+    display: flex;
+}
+.off
+{
+    color: red;
+}
+.mrp
+{
+    opacity: 0.5;
+}
+.color
+{
+    display: flex;
+   
+}
+.color>div{
+    margin: 10px;
+  
+    box-shadow: 1px 1px 2px  black ;
+}
+.color>div:hover{
+    border: 2px solid black;
+}
+
+
+.count1,.count2,.count3
+{
+    margin:10px;
+}
+.count1,.count3
+{
+    
+
+    background: rgba(211, 211, 211, 0.247);
+    padding: 8px;
+    
+}
+.count1:hover,.count3:hover
+{
+    background-color: black;
+    color: white;
+}
+.add
+{
+    border:1px solid rgb(233, 188, 75);
+    padding: 4px;
+    text-align: center;
+}
+.buy
+{
+    border: 1px solid yellow;
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(233, 188, 75);
+    margin-top: 10px;
+}
+.earbuds1
+{
+    position: relative;
+}
+.img1
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 10%;
+    top: 5%;
+}
+.img2
+{
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    height: 200px;
+    width: 200px;
+}
+.img3
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 20%;
+    left: 10%;
+}
+.img4
+{
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    left: 30%;
+}
+.earbuds2{
+    margin: 15px;
+}
+
+
+
+
+
+
+@media only screen and (min-width:360px) and (max-width:900px) 
+{
+    .earbuds
+{
+    display: block;
+    
+}
+.earbuds>div{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+}
+    .earbuds1
+{
+    position: relative;
+}
+.img1
+{
+    position: absolute;
+   
+    left: 10%;
+    top: 5%;
+}
+.img2
+{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    height: 50px;
+    width: 50px;
+}
+.img3
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 20%;
+    left: 10%;
+}
+.img4
+{
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    left: 30%;
+}
+    
+}

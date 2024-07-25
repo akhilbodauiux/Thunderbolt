@@ -1,0 +1,30 @@
+.itembox
+{
+    
+
+   display:flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.items
+{
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.144);
+    border-radius: 15px;
+    padding: 50px;
+}
+.items img{
+ height: 200px;
+ width: 200px;
+}
+h2
+{
+    margin-top: 100px;
+    padding-top: 50px;
+    
+}
+h6
+{
+    text-align: center;
+}
